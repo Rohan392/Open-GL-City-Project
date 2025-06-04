@@ -210,12 +210,6 @@ void Car::init() {
     glEnableVertexAttribArray(loc_view);
     glVertexAttribPointer(loc_view, 4, GL_FLOAT, GL_FALSE, 0, BUFFER_OFFSET(0));
 
-    glClearColor( 0.0, 0.0, 0.0, 1.0 ); // black background
-    glEnable(GL_BLEND); // Enable blending for transparency
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA); // Set blending function
-    glEnable(GL_DEPTH_TEST);
-    glClearDepth(1.0);
-    glDepthFunc(GL_LESS);
   
 }
 
@@ -500,5 +494,4 @@ for (int i = 0; i < 2 * numSegments - 2; i += 2) {
     glBindVertexArray(vaoCylinder[2]);
     glDrawArrays(GL_TRIANGLE_STRIP, i, 4); // Draw two triangles (quad)
 }
-  glutSwapBuffers();
 }
