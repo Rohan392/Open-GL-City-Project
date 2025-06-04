@@ -1,14 +1,16 @@
 OpenGL City Simulation
-
 Overview
-An interactive 3D city simulation built using OpenGL, featuring a procedurally generated environment and controllable vehicle.
+
+
+A 3D city simulation built with OpenGL that features interactive navigation, a controllable car, and a detailed environment. This project demonstrates object-oriented design, graphics programming, and real-time rendering principles.
 
 Features
-Fully controllable car model with functional wheel animation and realistic physics, designed with object-oriented programming.
-Multiple dynamic camera systems including first-person and follow-cam views, with collision-aware navigation.
-A 10x10 grid-based city environment rendered with texture-mapped roads, procedurally generated buildings, and signalized intersections.
+- Fully controllable car with animated wheels and physics-inspired movement.
+- Dynamic camera system supporting first-person and follow-cam modes, with collision-aware navigation.
+- Procedurally generated 10×10 city grid including roads, textured buildings, and traffic intersections.
 
 Technologies
-C++
-OpenGL
+- OpenGL
+- C++
+- GLUT/GLFW for windowing and input
 
