@@ -51,7 +51,6 @@ You will need **g++** to compile and run the game. If you want to run the tests,
 make     # Compile the project and generate the executable
 ./main.exe # Run the game
 make clean # clears the executable files              
-
-  
-
+```
+---
 Image of city and car: ![image](https://github.com/user-attachments/assets/6df81678-681b-4211-ba07-01e0320938a2)
