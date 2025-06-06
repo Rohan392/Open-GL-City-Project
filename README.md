@@ -3,7 +3,7 @@
 ---
 
 **Contributors:**  
-- Malcolm Todd  
+- [Malcolm Todd](https://github.com/Rubixue) 
 - Raj Pannu  
 
 ---
