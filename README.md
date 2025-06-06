@@ -39,5 +39,19 @@ A 3D city simulation built with OpenGL that features interactive navigation, a c
 
 - Arrow Keys — Move  
 - F1, F2, F3, F4 — Different viewing perspectives
+---
+
+## Running the Game
+
+You will need **g++** to compile and run the game. If you want to run the tests, please install **Google Test (gtest)** on your system.
+
+### Steps (run in your terminal/bash):
+
+```bash
+make     # Compile the project and generate the executable
+./main.exe # Run the game
+make clean # clears the executable files              
+
+  
 
 Image of city and car: ![image](https://github.com/user-attachments/assets/6df81678-681b-4211-ba07-01e0320938a2)
